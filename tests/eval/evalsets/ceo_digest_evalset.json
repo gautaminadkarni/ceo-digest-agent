@@ -1,0 +1,65 @@
+{
+  "eval_set_id": "ceo_digest_evalset",
+  "name": "Northwell Health CEO Briefing Evaluation Set",
+  "description": "Evaluates research scouting, podcast audio synthesis, executive summary generation, and M365 deliverable routing.",
+  "eval_cases": [
+    {
+      "eval_id": "full_ceo_briefing_request",
+      "conversation": [
+        {
+          "invocation_id": "inv_briefing_1",
+          "user_content": {
+            "parts": [
+              {
+                "text": "Generate today's executive daily briefing for Dr. DeAngelo across all 5 healthcare coverage segments."
+              }
+            ]
+          },
+          "final_response": {
+            "role": "model",
+            "parts": [
+              {
+                "text": "executive briefing for Dr. DeAngelo"
+              }
+            ]
+          },
+          "intermediate_data": {
+            "tool_uses": [
+              {
+                "name": "run_deep_research",
+                "args": {}
+              },
+              {
+                "name": "produce_podcast_audio",
+                "args": {}
+              },
+              {
+                "name": "produce_and_upload",
+                "args": {}
+              },
+              {
+                "name": "generate_executive_digest",
+                "args": {}
+              },
+              {
+                "name": "deliver_executive_briefing",
+                "args": {}
+              },
+              {
+                "name": "send_podcast_email",
+                "args": {}
+              }
+            ]
+          }
+        }
+      ],
+      "session_input": {
+        "app_name": "ceo_digest_agent",
+        "user_id": "dr_deangelo",
+        "state": {
+          "user:executive_name": "Dr. DeAngelo"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,175 @@
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.5",
+  "body": [
+    {
+      "type": "TextBlock",
+      "text": "\ud83c\udfe5 Northwell Health \u2014 Daily Executive Briefing & Podcast",
+      "weight": "Bolder",
+      "size": "Medium",
+      "color": "Accent",
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "text": "Curated for: Dr. DeAngelo, Chief Executive Officer | Date: August 24, 2026",
+      "isSubtle": true,
+      "size": "Small",
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "text": "\ud83c\udf99\ufe0f 5-Segment Dual-Host Audio Overview (Past 24h / 72h News Window) is ready. Below are top speed-to-value takeaways across all 5 segments:",
+      "wrap": true,
+      "spacing": "Medium"
+    },
+    {
+      "type": "Container",
+      "style": "emphasis",
+      "spacing": "Medium",
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "1. CMS Finalizes 2026 Inpatient Payment System (IPPS): Reimbursement & Wage Index Floor Shifts (Modern Healthcare)",
+          "weight": "Bolder",
+          "wrap": true
+        },
+        {
+          "type": "TextBlock",
+          "text": "Segment: Regulatory & Reimbursement | Impact: Critical (+3.1% rate boost, wage index floor protection)",
+          "size": "Small",
+          "color": "Good",
+          "wrap": true
+        },
+        {
+          "type": "TextBlock",
+          "text": "\u2022 3.1% Net Inpatient Payment Rate Increase: Rewards full compliance with hospital quality and EHR interoperability programs.",
+          "size": "Small",
+          "wrap": true
+        }
+      ]
+    },
+    {
+      "type": "Container",
+      "style": "emphasis",
+      "spacing": "Medium",
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "2. Scaling Ambient Scribing Across 15,000 Physicians: Speed-to-Value Lessons from Epic EHR Integrations (NEJM Catalyst)",
+          "weight": "Bolder",
+          "wrap": true
+        },
+        {
+          "type": "TextBlock",
+          "text": "Segment: Clinical Innovation & Technology Adoption | Impact: High (5-month ROI, 2.1h daily burnout reduction)",
+          "size": "Small",
+          "color": "Good",
+          "wrap": true
+        },
+        {
+          "type": "TextBlock",
+          "text": "\u2022 45% Faster Documentation Turnaround: Reduces clinical documentation latency from hours to minutes post-encounter.",
+          "size": "Small",
+          "wrap": true
+        }
+      ]
+    },
+    {
+      "type": "Container",
+      "style": "emphasis",
+      "spacing": "Medium",
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "3. Predictive Denial Prevention & Automated Prior Authorizations: Post-Merger RCM Harmonization (Becker's Hospital Review)",
+          "weight": "Bolder",
+          "wrap": true
+        },
+        {
+          "type": "TextBlock",
+          "text": "Segment: Industry, M&A & Revenue Cycle | Impact: Critical ($12.5M cash flow boost, 11-day DAR reduction)",
+          "size": "Small",
+          "color": "Good",
+          "wrap": true
+        },
+        {
+          "type": "TextBlock",
+          "text": "\u2022 34% Drop in First-Pass Claim Denials: Machine learning models flag missing clinical documentation prior to billing submission.",
+          "size": "Small",
+          "wrap": true
+        }
+      ]
+    },
+    {
+      "type": "Container",
+      "style": "emphasis",
+      "spacing": "Medium",
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "4. Automating Administrative Service Desks & Credentialing Bots in Multi-Hospital Systems (Fierce Healthcare)",
+          "weight": "Bolder",
+          "wrap": true
+        },
+        {
+          "type": "TextBlock",
+          "text": "Segment: Workforce & Operational Resilience | Impact: High (12-day onboarding vs 90-day baseline)",
+          "size": "Small",
+          "color": "Good",
+          "wrap": true
+        },
+        {
+          "type": "TextBlock",
+          "text": "\u2022 Credentialing Lead Time Cut from 90 to 12 Days: Accelerates specialist time-to-first-appointment by over 80%.",
+          "size": "Small",
+          "wrap": true
+        }
+      ]
+    },
+    {
+      "type": "Container",
+      "style": "emphasis",
+      "spacing": "Medium",
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "5. Executive Quick Hits: Cybersecurity Ransomware Resilience & Regional Payer Value-Based Renewals (Harvard Business Review)",
+          "weight": "Bolder",
+          "wrap": true
+        },
+        {
+          "type": "TextBlock",
+          "text": "Segment: Quick Hits | Impact: Medium-High (Enterprise risk mitigation, capitation readiness)",
+          "size": "Small",
+          "color": "Good",
+          "wrap": true
+        },
+        {
+          "type": "TextBlock",
+          "text": "\u2022 Zero-Trust Lateral Ransomware Defenses: Micro-segmentation across medical IoT devices prevents enterprise-wide outage risks.",
+          "size": "Small",
+          "wrap": true
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.OpenUrl",
+      "title": "\ud83c\udf99\ufe0f Listen to CEO Podcast Briefing",
+      "url": "file:///Users/gautami/ceo_digest_agent/northwell_ceo_podcast_demo.m4a"
+    },
+    {
+      "type": "Action.OpenUrl",
+      "title": "\ud83d\udcc4 Open in Microsoft Word / SharePoint",
+      "url": "https://sharepoint.northwell.edu/exec-briefings/digest-2026-08-24.docx"
+    },
+    {
+      "type": "Action.OpenUrl",
+      "title": "\ud83d\udcca View Full Executive Dashboard",
+      "url": "https://teams.microsoft.com/l/channel/northwell-exec-briefing"
+    }
+  ]
+}

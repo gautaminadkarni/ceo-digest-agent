@@ -1,0 +1,69 @@
+{
+  "client_name": "Northwell Health",
+  "target_executive": "Dr. DeAngelo, Chief Executive Officer",
+  "news_window_rule": "Past 24 hours (or 72 hours on Mondays to cover weekend developments)",
+  "scheduling": "Gemini Enterprise — Agent Designer Daily Morning Cron Schedule",
+  "runtime": "Vertex AI Agent Runtime",
+  "project_id": "ai-sme-gauti",
+  "gcs_bucket_name": "ai-sme-gauti-executive-digests",
+  "location": "us-central1",
+  "model": "gemini-2.5-pro",
+  "coverage_segments": [
+    {
+      "id": "regulatory_reimbursement",
+      "name": "Regulatory & Reimbursement",
+      "description": "CMS rules, FDA actions, payer policy, coverage decisions, drug pricing"
+    },
+    {
+      "id": "clinical_innovation",
+      "name": "Clinical Innovation & Technology Adoption",
+      "description": "New treatments, trial results, devices, digital health, AI in clinical settings & ambient scribing"
+    },
+    {
+      "id": "industry_ma",
+      "name": "Industry, M&A & Revenue Cycle",
+      "description": "Major deals, health system moves, payer-provider consolidation, Nuvance Health merger, earnings & cash flow"
+    },
+    {
+      "id": "workforce_operations",
+      "name": "Workforce & Operational Resilience",
+      "description": "Staffing, labour actions, health system operational news, credentialing bots, burnout reduction, cybersecurity"
+    },
+    {
+      "id": "quick_hits",
+      "name": "Quick Hits",
+      "description": "A closing round-up of shorter items worth an executive mention"
+    }
+  ],
+  "authoritative_sources": [
+    "Becker's Hospital Review",
+    "Fierce Healthcare",
+    "Modern Healthcare",
+    "NEJM Catalyst",
+    "Harvard Business Review",
+    "CMS & FDA Official Bulletins"
+  ],
+  "search_queries": [
+    "CMS Medicare reimbursement hospital pricing rules Northwell",
+    "Northwell Health clinical AI Epic EHR optimization ambient scribing",
+    "hospital M&A Nuvance Health merger payer consolidation revenue cycle",
+    "physician burnout credentialing bot nurse retention staffing health system",
+    "healthcare cybersecurity regulatory quick hits executive briefing"
+  ],
+  "podcast_settings": {
+    "format": "dual_host_audio_overview",
+    "script_format": "HOST / ANALYST conversational dialogue with natural on-air attribution",
+    "target_duration_seconds": 90,
+    "episode_focus": "operational speed-to-value across 5 core segments for Dr. DeAngelo, CEO of Northwell Health",
+    "notebook_title_template": "Northwell CEO Weekly Executive Briefing - {date}"
+  },
+  "microsoft_365_settings": {
+    "sender_email": "ceo-agent@northwell.edu",
+    "target_ceo_email": "gautami@google.com, gnadkarni@northwell.edu",
+    "target_teams_channel": "Northwell Executive Leadership Briefing Channel",
+    "enable_teams_adaptive_card": true,
+    "enable_outlook_html_digest": true,
+    "enable_ms_word_export": true,
+    "ms_graph_api_endpoint": "https://graph.microsoft.com/v1.0"
+  }
+}
