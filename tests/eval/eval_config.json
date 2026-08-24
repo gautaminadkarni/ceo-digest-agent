@@ -8,12 +8,12 @@
       },
       "rubrics": [
         {
-          "rubricId": "relevance",
-          "rubricContent": { "textProperty": "The response directly addresses the user's query." }
+          "rubric_id": "relevance",
+          "rubric_content": { "text_property": "The response directly addresses the user's query." }
         },
         {
-          "rubricId": "helpfulness",
-          "rubricContent": { "textProperty": "The response is helpful and provides useful executive intelligence information." }
+          "rubric_id": "helpfulness",
+          "rubric_content": { "text_property": "The response is helpful and provides useful executive intelligence information." }
         }
       ]
     }
