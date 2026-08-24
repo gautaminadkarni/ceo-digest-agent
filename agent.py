@@ -74,7 +74,20 @@ def init_artifact_service():
         return InMemoryArtifactService()
 
 
-artifact_service = init_artifact_service()
+from google.adk.sessions import VertexAiSessionService, InMemorySessionService
+
+def init_session_service():
+    """Initializes persistent VertexAiSessionService for real persistent session state management."""
+    try:
+        service = VertexAiSessionService(project=PROJECT_ID, location=LOCATION)
+        sys.stderr.write(f"💾 [VertexAiSessionService] Connected to persistent Session Service (Project: {PROJECT_ID})\n")
+        return service
+    except Exception as e:
+        sys.stderr.write(f"⚠️ [SessionService] Using InMemorySessionService fallback: {e}\n")
+        return InMemorySessionService()
+
+
+session_service = init_session_service()
 
 
 # Callback for state initialization & executive user preferences
