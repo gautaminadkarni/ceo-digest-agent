@@ -1,0 +1,20 @@
+{
+  "eval_set_result_id": "app_ceo_digest_evalset_1787549573.5507898",
+  "eval_set_result_name": "app_ceo_digest_evalset_1787549573.5507898",
+  "eval_set_id": "ceo_digest_evalset",
+  "eval_case_results": [
+    {
+      "eval_set_file": "ceo_digest_evalset",
+      "eval_set_id": "ceo_digest_evalset",
+      "eval_id": "full_ceo_briefing_request",
+      "final_eval_status": 2,
+      "eval_metric_results": null,
+      "overall_eval_metric_results": [],
+      "eval_metric_result_per_invocation": [],
+      "session_id": "___eval___session___31e15c6f-4598-4b66-802e-e38ef445950c",
+      "session_details": null,
+      "user_id": "dr_deangelo"
+    }
+  ],
+  "creation_timestamp": 1787549573.5507898
+}

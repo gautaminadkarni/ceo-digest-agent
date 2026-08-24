@@ -1,5 +1,5 @@
 # 🏥 Executive Reading Dashboard & Strategy Briefing
-**Curated For:** Dr. DeAngelo, Chief Executive Officer (Northwell Health)
+**Curated For:** Dr. DeAngelo (Northwell Health)
 **Date:** August 24, 2026
 **News Window:** Past 24 hours (or 72 hours on Mondays)
 
